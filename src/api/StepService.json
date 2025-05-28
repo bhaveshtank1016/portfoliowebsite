@@ -1,0 +1,30 @@
+[
+  {
+    "number": "1",
+    "title": "Discovery",
+    "description":
+      "Understanding your requirements and project goals through in-depth consultations.",
+    "color": "bg-blue-600"
+  },
+  {
+    "number": "2",
+    "title": "Planning",
+    "description":
+      "Creating a roadmap with milestones, technologies, and design specifications.",
+    "color": "bg-pink-600"
+  },
+  {
+    "number": "3",
+    "title": "Development",
+    "description":
+      "Building your solution with clean code and regular progress updates.",
+    "color": "bg-blue-600"
+  },
+  {
+    "number": "4",
+    "title": "Delivery",
+    "description":
+      "Testing, refining, and launching your product with ongoing support.",
+    "color": "bg-pink-600"
+  }
+]

@@ -1,0 +1,85 @@
+
+[ 
+    
+    {
+      "title": "Mobile App Development",
+      "description":
+        "Cross-platform and native mobile applications with beautiful UI and seamless performance.",
+      "icon": "📱",
+      "tags": [
+        { "label": "Flutter", "color": "text-blue-500" },
+        { "label": "React Native", "color": "text-pink-500" },
+        { "label": "Java", "color": "text-blue-500" },
+        { "label": "Kotlin", "color": "text-pink-500" }
+      ]
+    },
+    
+    {
+      "title": "Web Development",
+      "description":
+        "Responsive, modern websites and web applications with focus on performance and usability.",
+      "icon": "🖥️",
+      "tags": [
+        { "label": "HTML/CSS", "color": "text-blue-500" },
+        { "label": "JavaScript", "color": "text-pink-500" },
+        { "label": "Laravel", "color": "text-blue-500" },
+        { "label": "PHP", "color": "text-pink-500" }
+      ]
+    },
+    
+    {
+      "title": "Custom Software Solutions",
+      "description":
+        "Tailored software solutions designed to address your specific business challenges.",
+      "icon": "⚙️",
+      "tags": [
+        { "label": "API Integration", "color": "text-blue-500" },
+        { "label": "UI/UX Design", "color": "text-pink-500" },
+        { "label": "Database", "color": "text-blue-500" },
+        { "label": "Testing", "color": "text-pink-500" }
+      ]
+
+    },
+    
+     {
+      "title": "E-Commerce Solutions",
+      "description":
+         "Complete online shopping platforms with secure payment gateways and inventory management.",
+      "icon": "🛒",
+      "tags": [
+        { "label": "WooCommerce", "color": "text-blue-500" },
+        { "label": "Payment API", "color": "text-pink-500" },
+        { "label": "Security", "color": "text-blue-500" },
+        { "label": "Analytics", "color": "text-pink-500" }
+      ]
+
+    },
+    
+     {
+      "title": "UI/UX Optimization",
+      "description":
+        "Enhance user experience with intuitive interfaces and smooth interactions that boost engagement.",
+      "icon": "🧩",
+      "tags": [
+        { "label": "Wireframing", "color": "text-blue-500" },
+        { "label": "Prototyping", "color": "text-pink-500" },
+        { "label": "User Testing", "color": "text-blue-500" },
+        { "label": "Animations", "color": "text-pink-500" }
+      ]
+
+    },
+    
+      {
+      "title": "Maintenance & Support",
+      "description":
+        "Ongoing technical support and maintenance to keep your applications running smoothly.",
+      "icon": "⚡",
+      "tags": [
+        { "label": "Bug Fixes", "color": "text-blue-500" },
+        { "label": "Updates", "color": "text-pink-500" },
+        { "label": "Optimization", "color": "text-blue-500" },
+        { "label": "Consultation", "color": "text-pink-500" }
+      ]
+
+    }
+]
