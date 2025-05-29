@@ -11,7 +11,7 @@ function Header() {
             id="brand"
             className="gap-2 flex justify-between items-center"
           >
-            <span className="text-3xl text-bold bg-gradient-to-r from-[#3A86FF] to-[#FF006E]  bg-clip-text text-transparent">
+            <span className="text-4xl font-bold text-bold bg-gradient-to-r from-[#3A86FF] to-[#FF006E]  bg-clip-text text-transparent">
               Bhavesh Tank
             </span>
           </NavLink>
@@ -26,20 +26,20 @@ function Header() {
             </li>
             <li>
               <NavLink
-                to="About"
+                to="about"
                 className=" hover:text-[#FF006E] transition-colors duration-300"
               >
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to="Services" className="  ">
+              <NavLink to="services" className="  ">
                 Services
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="Projects"
+                to="projects"
                 className=" hover:text-[#FF006E] transition-colors duration-300"
               >
                 Projects

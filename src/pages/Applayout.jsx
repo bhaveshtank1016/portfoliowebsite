@@ -5,8 +5,8 @@ import Footer from "./Footer";
 import Home from "./Home";
 import About from "./About";
 import Services from "./Services";
-import Projects from "./Projects";
-import Team from "./Team";
+import Projects from "./Projects/Projects";
+import Team from "./Teams/Team";
 import Testimonials from "./Testimonials";
 import Contect from "./Contect";
 import Homesection from "./Herosection";
@@ -16,14 +16,14 @@ function Applayout() {
     <div>
       <Header></Header>
       <Outlet></Outlet>
-    
+
       <About />
       <Services />
-      {/* <Projects />
+      <Projects />
       <Team />
-      <Testimonials />
+      {/* <Testimonials />
       <Contect />
-      <Footer></Footer> */}
+      <Footer></Footer>  */}
     </div>
   );
 }
