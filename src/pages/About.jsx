@@ -43,7 +43,7 @@ function About() {
           <h2 className="md:text-5xl font-bold text-white text-3xl  py-5">
             About Me
           </h2>
-          <div className=" h-1 w-40 mx-auto rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+          <div className=" h-2 w-40 mx-auto rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
           <p className="text-xl mt-5 ">
             Get to know me better and see how I can help bring your digital
             ideas to life.

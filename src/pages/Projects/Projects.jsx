@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import { FaMobileAlt, FaDesktop, FaDollarSign } from "react-icons/fa";
 import ProjectCards from "./Projectscards";
 import { IoSettingsOutline } from "react-icons/io5";
@@ -110,9 +110,11 @@ function Projects() {
           </div>
         </div>
         {/* Load More Projects  */}
-        <div className="text-center font-bold text-white"><button class="text-xl  mb-10 mt-10 bg-gradient-to-r from-[#3A86FF] to-[#FF006E] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 w-50 h-20 rounded-2xl">
-  Load More Projects
-</button></div>
+        <div className="text-center font-bold text-white">
+          <button class="text-xl  mb-10 mt-10 bg-gradient-to-r from-[#3A86FF] to-[#FF006E] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 w-50 h-20 rounded-2xl">
+            Load More Projects
+          </button>
+        </div>
       </div>
     </section>
   );

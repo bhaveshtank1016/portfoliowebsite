@@ -8,7 +8,7 @@ import Services from "./Services";
 import Projects from "./Projects/Projects";
 import Team from "./Teams/Team";
 import Testimonials from "./Testimonials";
-import Contect from "./Contect";
+import Contect from "./Contects/Contect";
 import Homesection from "./Herosection";
 
 function Applayout() {
@@ -21,9 +21,9 @@ function Applayout() {
       <Services />
       <Projects />
       <Team />
-      {/* <Testimonials />
+      <Testimonials />
       <Contect />
-      <Footer></Footer>  */}
+      <Footer></Footer> 
     </div>
   );
 }
