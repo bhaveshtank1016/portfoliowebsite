@@ -10,8 +10,8 @@ import { FaWhatsapp } from "react-icons/fa6";
 import Contectform from "./Contectform";
 function Contect() {
   return (
-    <section className="bg-neutral-900 ">
-      <div className="container bg-neutral-900 py-10 text-neutral-300   ">
+    <section className="w-full sm:w-full bg-neutral-900  text-white pt-15 pb-20">
+      <div className="container mx-auto px-4 py-4   ">
         <div className="text-center  ">
           <h2 className="md:text-5xl font-bold text-white text-3xl  py-5">
             Get In Touch

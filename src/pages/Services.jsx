@@ -4,8 +4,8 @@ import StepService from "../api/StepService.json";
 
 function Services() {
   return (
-    <section className="bg-neutral-900">
-      <div className="container bg-neutral-900  py-10 text-neutral-200">
+    <section className="w-full sm:w-full bg-neutral-900  text-white lg:pt-10  pb-20 ">
+      <div className="container mx-auto ">
         <div className="text-center">
           <h1 className="md:text-5xl font-bold text-white text-3xl  py-5">
             Services
@@ -14,21 +14,20 @@ function Services() {
           <div>
             <p className="text-xl mt-5 mb-10 ">
               Services Specialized services tailored to meet your digital needs
-              with cutting-edge technologies and
-              <br /> expert solutions.
+              with cutting-edge technologies and expert solutions.
             </p>
           </div>
           {/* cards */}
           <div>
-            <div className="container space-x-10 space-y-10 bg-neutral-900 min-h-screen flex items-center justify-center p-6  ">
-              <div className="grid grid-cols-1 md:grid-cols-2 px-10 lg:grid-cols-3 space-x-8 gap-8 max-w-7xl w-full">
+            <div className="  bg-neutral-900 min-h-screen flex items-center justify-center p-6  ">
+              <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  gap-8  w-full">
                 {Cardsdata.map((service, index) => (
                   <div
                     key={index}
-                    className="bg-[#1e1e1e] p-15  rounded-2xl shadow-xl  text-center text-white"
+                    className="bg-[#090808] lg:p-15 p-8 max-h-[900px] rounded-2xl shadow-xl  text-center text-white"
                   >
                     <div className="text-5xl mb-4">{service.icon}</div>
-                    <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
+                    <h3 className="text-3xl font-bold mb-2">{service.title}</h3>
                     <p className="text-gray-400 mb-6">{service.description}</p>
                     <div className="grid grid-cols-2 gap-3">
                       {service.tags.map((tag, idx) => (
@@ -47,7 +46,7 @@ function Services() {
           </div>
         </div>
         {/* how we work  */}
-        <div className=" bg-neutral-900 pb-10">
+        <div className=" bg-neutral-900 mt-10 pb-10">
           <h1 className="relative text-center text-white text-3xl mb-10 font-bold">
             How We Work
           </h1>

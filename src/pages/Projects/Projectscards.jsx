@@ -2,7 +2,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="bg-neutral-800 rounded-2xl overflow-hidden shadow-lg w-full max-w-md">
+    <div className="bg-neutral-800 rounded-2xl overflow-hidden shadow-lg w-full max-w-md sm:mx-auto">
       {/* Header */}
       <div className="relative bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 h-40 flex justify-center items-center">
         <div className="text-white text-5xl">{project.icon}</div>
@@ -13,8 +13,8 @@ const ProjectCard = ({ project }) => {
     
       {/* Content */}
       <div className="p-6">
-        <h3 className="text-xl font-bold text-white">{project.title}</h3>
-        <p className="text-neutral-400 mt-2 text-sm">{project.description}</p>
+        <h3 className="text-2xl font-bold text-white">{project.title}</h3>
+        <p className="text-neutral-400 mt-2 text-xl">{project.description}</p>
 
         {/* Tags */}
         <div className="flex flex-wrap gap-2 mt-4">

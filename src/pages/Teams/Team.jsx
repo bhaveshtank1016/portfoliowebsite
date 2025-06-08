@@ -92,10 +92,10 @@ function Team() {
     },
   ];
   return (
-    <section className=" bg-neutral-800 ">
-      <div className=" text-neutral-300 bg-neutral-800">
+    <section className="w-full sm:w-full bg-neutral-900  text-white sm:pt-20 pb-20">
+      <div >
         <div className="text-center">
-          <h1 className="md:text-5xl font-bold text-white text-3xl  py-5">
+          <h1 className="md:text-5xl text-4xl lg-6xl font-bold text-white  py-5">
             Our Team
           </h1>
           <div className=" h-2 w-40 mx-auto rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
@@ -114,8 +114,8 @@ function Team() {
         <div className="mt-auto mb-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
          
             {status.map((stat) => (
-              <div className="bg-neutral-700 rounded-xl p-8 shadow-lg text-center  ">
-               <div className="flex items-center justify-center mb-10"> 
+              <div className="bg-neutral-700 rounded-xl p-8 shadow-lg text-center m-5 ">
+               <div className="flex items-center justify-center "> 
                 <div
                   className={`w-17 h-17  rounded-full flex items-center justify-center ${stat.color}`}
                 >

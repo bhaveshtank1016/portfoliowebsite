@@ -7,8 +7,7 @@ import Applayout from "./pages/Applayout";
 import Services from './pages/Services';
 import Projects from './pages/Projects/Projects'
 import Team from './pages/Teams/Team'
-import Testimonials from './pages/Testimonials'
-
+import Testimonials from './pages/Testimonials' 
 const router = createBrowserRouter([
   {
     path: "/",

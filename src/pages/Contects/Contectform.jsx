@@ -64,8 +64,7 @@ function Contectform() {
         </button>
           </form>
         </div>
-          <div className="w-full mt-10 ">
-          </div>
+          
       </div>
       <LocationCard/>
     </div>

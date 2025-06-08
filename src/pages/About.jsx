@@ -37,10 +37,10 @@ function About() {
     },
   ];
   return (
-    <section className="bg-neutral-900  ">
-      <div className="container bg-neutral-900 py-10 text-neutral-300   ">
-        <div className="text-center  ">
-          <h2 className="md:text-5xl font-bold text-white text-3xl  py-5">
+   <div className="w-full  bg-neutral-900  text-white pt-15 pb-20  ">
+    <div className=" container mx-auto px-4 py-4 ">
+        <div className="text-center mb-12 ">
+          <h2 className="md:text-5xl sm:text-5xl font-bold text-white text-3xl  py-5">
             About Me
           </h2>
           <div className=" h-2 w-40 mx-auto rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
@@ -49,22 +49,22 @@ function About() {
             ideas to life.
           </p>
         </div>
-        <div className="flex justify-between">
+        <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 container mx-auto">
           {/* Left section  */}
-          <div className="w-100">
+          <div className=" sm:w-full sm:h-full flex justify-center ">
             <img
-              className="w-70 p-5 pt-40 ml-10"
+              className=" sm:4xl  p-10"
               src="https://i.pinimg.com/236x/3f/d8/bf/3fd8bf9a259e8e4b0ed3bb8c67b17884.jpg"
               alt="gg"
             />
           </div>
           {/* RIGHT SECTION ABOUT  */}
-          <div>
-            <div className="w-200  mr-20  ">
-              <h3 className="text-start text-4xl text-white font-bold mt-10">
+          <div >
+            <div className="text-neutral-400">
+              <h3 className="text-start text-2xl md:text-3xl sm:text-xl text-white font-bold mt-10">
                 Full-Stack Mobile & Web Developer
               </h3>
-              <p className="text-xl text-start mt-5">
+              <p className="text-xl text-start mt-5 ">
                 Hi, I'm Bhavesh Tank, a passionate Full-Stack Developer with
                 over a year of experience creating high-performance applications
                 and intuitive user interfaces. I specialize in both mobile and
@@ -82,16 +82,16 @@ function About() {
             {/* My Tech Stack  */}
             <div>
               <div className="text-white mt-5 mb-10">
-                <div className="max-w-4xl">
+                <div className="">
                   <h1 className="text-3xl text-start font-bold mb-6">
                     My Tech Stack
                   </h1>
                   <div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ">
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-3 ">
                       {techStack.map((tech) => (
                         <div
                           key={tech.name}
-                          className="flex items-center gap-4 bg-gray-700 p-4 rounded-lg shadow-md"
+                          className="flex items-center gap-4 bg-gray-700 p-4 rounded-lg shadow-lg"
                         >
                           <div
                             className={`w-10 h-10 flex items-center justify-center text-lg rounded-full text-white font-bold ${tech.color}`}
@@ -126,7 +126,7 @@ function About() {
           </div>
         </div>
       </div>
-    </section>
+   </div>
   );
 }
 

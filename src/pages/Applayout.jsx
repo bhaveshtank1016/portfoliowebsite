@@ -9,20 +9,20 @@ import Projects from "./Projects/Projects";
 import Team from "./Teams/Team";
 import Testimonials from "./Testimonials";
 import Contect from "./Contects/Contect";
-import Homesection from "./Herosection";
+// import Homesection from "./Herosection";
 
 function Applayout() {
   return (
     <div>
       <Header></Header>
       <Outlet></Outlet>
-
       <About />
       <Services />
       <Projects />
       <Team />
       <Testimonials />
-      <Contect />
+      <Contect /> 
+       
       <Footer></Footer> 
     </div>
   );

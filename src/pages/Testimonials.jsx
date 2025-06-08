@@ -1,24 +1,4 @@
-// import React from "react";
 
-// function Testimonials() {
-//   return (
-//     <section className="bg-neutral-900 ">
-//       <div className="container bg-neutral-900 py-10 text-neutral-300   ">
-//         <div className="text-center  ">
-//           <h2 className="md:text-5xl font-bold text-white text-3xl  py-5">
-//             Testimonials
-//           </h2>
-//           <div className=" h-2 w-40 mx-auto rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
-//           <p className="text-xl mt-5 ">
-//             What our clients say about our expertise and delivered solutions.
-//           </p>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default Testimonials;
 import React, { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -79,8 +59,8 @@ export default function TestimonialSlider() {
   };
 
   return (
-    <section className="bg-neutral-900 ">
-      <div className="container bg-neutral-900 py-10 text-neutral-300   ">
+    <section className="w-full sm:w-full bg-neutral-900  text-white pt-15 pb-20 ">
+      <div className="container mx-auto px-4 py-4  ">
         <div className="text-center  ">
           <h2 className="md:text-5xl font-bold text-white text-3xl  py-5">
             Testimonials
@@ -92,11 +72,11 @@ export default function TestimonialSlider() {
             What our clients say about our expertise and delivered solutions.
           </p>
         </div>
-        <div className=" text-white min-h-screen flex items-center justify-center px-4">
-          <div className="relative max-w-3xl h-50 w-full">
+        <div className=" text-white mt-20 max-h-2/1 flex items-center justify-center px-4">
+          <div className="relative max-w-6xl  w-full">
             <div className="bg-[#2a2a2a] rounded-xl p-6 shadow-xl text-white transition-all duration-300">
               <div className="flex items-center ">
-                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-pink-500 flex items-center justify-center text-lg font-bold text-white">
+                <div className="w-16  h-16 rounded-full bg-gradient-to-br from-blue-500 to-pink-500 flex items-center justify-center text-lg font-bold text-white">
                   {testimonials[index].initials}
                 </div>
                 <div className="ml-4">
@@ -147,8 +127,8 @@ export default function TestimonialSlider() {
         </div>
 
         {/* clint LOGO  */}
-        <div className="mt-15">
-          <h3 className="text-2xl font-semibold text-center mb-10  text-white">
+        <div className="mt-10 sm:mt-16 w-full  sm:p-5 p-10 mx-auto ">
+          <h3 className="text-2xl font-semibold text-center mb-10 text-white">
             Trusted by Companies Worldwide
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-center">
@@ -162,15 +142,15 @@ export default function TestimonialSlider() {
           </div>
         </div>
         {/* Ready to Start Your Project?  */}
-        <div className="mt-20   bg-gradient-to-r   from-[#3A86FF] to-[#FF000E]">
+        <div className="mt-20  rounded-tr-full rounded-tl-full pt-5 bg-gradient-to-r from-[#3A86FF] to-[#FF000E]">
           <h3 className="text-3xl font-semibold text-center mb-10   text-white"> Ready to Start Your Project? </h3>
           <p className="text-xl text-center">Join our satisfied clients and let us bring your digital ideas to life with our expertise and <br /> creativity.</p>
-         <div className="space-x-6 flex justify-center"> <button class="text-xl  mb-10 mt-10 bg-gradient-to-r from-[#3A86FF]/20 to-[#3A86FF] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 w-50 h-20 rounded-2xl">
+         <div className="space-x-6 flex justify-center"> <button class="text-xl  mb-10 mt-10 bg-gradient-to-r from-[#3A86FF]/20 to-[#143465] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 w-50 h-20 rounded-2xl">
 
          Contect Us Today
           </button>
         <NavLink to="/">
-            <button  class="text-xl  mb-10 mt-10  transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-900 w-50 h-20 rounded-2xl">
+            <button  class="text-xl  mb-10 mt-10  transition delay-150 duration-300 ease-in-out hover:-translate-y-1 bg-gradient-to-r from-[#3A86FF]/20 to-[#143465] hover:scale-110  hover:bg-indigo-900 w-50 h-20 rounded-2xl">
            Explore Projects 
           </button>
         </NavLink>
