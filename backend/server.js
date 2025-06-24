@@ -1,8 +1,23 @@
+const express = require('express');
 require('dotenv').config();
-const app = require("./app");
+const connectDB = require('./config/db'); 
+const contactRoutes = require('./routes/contact.routes');
+const cors = require('cors');
 
-const PORT = 3000;
-console.log("port:", PORT);
+const app = express();
+app.use(express.json()); // To parse JSON bodies
+
+
+app.use(cors());
+
+
+connectDB();
+
+
+app.use('/api', contactRoutes);
+
+
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(` Server running on port ${PORT}`);
 });

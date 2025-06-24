@@ -36,12 +36,12 @@ function Header() {
           <ul className=" hidden md:flex text-2xl gap-7 items-center justify-between ">
             {linkbtn.map((navi) => (
               <li>
-                <NavLink
+                <a
                   to={navi.link}
                   className=" hover:text-[#FF006E] transition-colors duration-300"
                 >
                   {navi.title}
-                </NavLink>
+                </a>
               </li>
             ))}
           </ul>
