@@ -1,13 +1,12 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 import Contect from "./pages/Contects/Contect";
 import Applayout from "./pages/Applayout";
-import Services from './pages/Services';
-import Projects from './pages/Projects/Projects'
-import Team from './pages/Teams/Team'
-import Testimonials from './pages/Testimonials' 
+import Services from "./pages/services/Services";
+import Projects from "./pages/Projects/Projects";
+import AchievementsSection from "./pages/achivments/achievements ";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,23 +28,20 @@ const router = createBrowserRouter([
         path: "/projects",
         element: <Projects />,
       },
+
       {
-        path: "/team",
-        element: <Team />,
-      },
-      {
-        path: "/testimonials",
-        element: <Testimonials />,
-      },
-          {
         path: "/contect",
-        element: <Contect/>,
+        element: <Contect />,
+      },
+       {
+        path: "/achievements ",
+        element: <AchievementsSection  />,
       },
     ],
   },
 ]);
 const App = () => {
-  return <RouterProvider router={router}></RouterProvider>
+  return <RouterProvider router={router}></RouterProvider>;
 };
 
 export default App;
